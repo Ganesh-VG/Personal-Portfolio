@@ -10925,7 +10925,7 @@ p.lead {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 4rem;
+    gap: 2.5rem;
     text-align: center;
 }
 .social-icons a {
