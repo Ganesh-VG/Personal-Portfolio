@@ -10921,22 +10921,27 @@ p.lead {
     display: block;
   }
 }
-.social-icons .social-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+.social-icons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    text-align: center;
+}
+.social-icons a {
+  height: 9rem;
+  width: 9rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
-  font-size: 1.5rem;
-  margin-right: 1.5rem;
+  font-size: 1.6rem;
+  padding: 7px;
 }
-.social-icons .social-icon:last-child {
-  margin-right: 0;
+.social-icons p {
+  font-size: 1.0rem;
+  margin-top: 0.5rem;
 }
-.social-icons .social-icon:hover {
+.social-icons a:hover {
   background-color: #bd5d38;
 }
 
